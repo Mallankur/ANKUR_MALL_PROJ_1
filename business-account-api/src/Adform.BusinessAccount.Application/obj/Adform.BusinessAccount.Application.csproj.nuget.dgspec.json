@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Application\\Adform.BusinessAccount.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Application\\Adform.BusinessAccount.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Application\\Adform.BusinessAccount.Application.csproj",
+        "projectName": "Adform.BusinessAccount.Application",
+        "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Application\\Adform.BusinessAccount.Application.csproj",
+        "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\NuGet.Config",
+          "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.adform.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj"
+              },
+              "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj": {
+                "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj",
+        "projectName": "Adform.BusinessAccount.Contracts",
+        "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\NuGet.Config",
+          "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.adform.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj",
+        "projectName": "Adform.BusinessAccount.Domain",
+        "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj",
+        "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\NuGet.Config",
+          "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.adform.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Adform.AspNetCore.ErrorHandler.Contracts": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Adform.Bloom.Client": {
+              "target": "Package",
+              "version": "[0.2.8, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

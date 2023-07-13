@@ -1,0 +1,330 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Adform.Ciam.Cache >= 0.0.4",
+      "Adform.Ciam.Mongo >= 0.0.4",
+      "Microsoft.Extensions.Http.Polly >= 6.0.7",
+      "Newtonsoft.Json >= 13.0.1",
+      "Polly >= 7.2.3",
+      "prometheus-net >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ankur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Infrastructure\\Adform.BusinessAccount.Infrastructure.csproj",
+      "projectName": "Adform.BusinessAccount.Infrastructure",
+      "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Infrastructure\\Adform.BusinessAccount.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\NuGet.Config",
+        "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory.adform.com/artifactory/api/nuget/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj": {
+              "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Adform.Ciam.Cache": {
+            "target": "Package",
+            "version": "[0.0.4, )"
+          },
+          "Adform.Ciam.Mongo": {
+            "target": "Package",
+            "version": "[0.0.4, )"
+          },
+          "Microsoft.Extensions.Http.Polly": {
+            "target": "Package",
+            "version": "[6.0.7, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[7.2.3, )"
+          },
+          "prometheus-net": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.Ciam.Cache' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.Ciam.Cache'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.Ciam.Cache"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'prometheus-net' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='prometheus-net'&semVerLevel=2.0.0'.",
+      "libraryId": "prometheus-net"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'prometheus-net' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='prometheus-net'&semVerLevel=2.0.0'.",
+      "libraryId": "prometheus-net"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Http' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Http'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Http' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Http'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Binder' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Configuration.Binder'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Binder"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Binder' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Configuration.Binder'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Binder"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Configuration'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Configuration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Configuration'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Configuration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Configuration.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Primitives' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Primitives'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Primitives"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Options' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Options'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Options"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Newtonsoft.Json' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Newtonsoft.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Newtonsoft.Json' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Newtonsoft.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Polly' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Polly' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Http.Polly' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Http.Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Http.Polly"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Http.Polly' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Http.Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Http.Polly"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Http' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Http'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Http' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Http'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Polly.Extensions.Http' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Polly.Extensions.Http'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly.Extensions.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Polly.Extensions.Http' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Polly.Extensions.Http'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly.Extensions.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.Ciam.Mongo' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.Ciam.Mongo'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.Ciam.Mongo"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.AspNetCore.ErrorHandler.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.AspNetCore.ErrorHandler.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.AspNetCore.ErrorHandler.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.Bloom.Client' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.Bloom.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.Bloom.Client"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    }
+  ]
+}

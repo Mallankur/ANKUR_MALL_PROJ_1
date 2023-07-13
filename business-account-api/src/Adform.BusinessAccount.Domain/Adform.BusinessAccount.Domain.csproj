@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Adform.AspNetCore.ErrorHandler.Contracts" Version="5.0.0" />
+		<PackageReference Include="Adform.Bloom.Client" Version="0.2.8" />
+		<PackageReference Include="FluentValidation" Version="11.1.0" />
+		<PackageReference Include="MediatR" Version="10.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Adform.BusinessAccount.Contracts\Adform.BusinessAccount.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

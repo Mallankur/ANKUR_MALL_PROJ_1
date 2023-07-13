@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "f8rMrcEoQvIXtG71zsyL+tSVL2U39raEq0ryVn3Y6L4=",
+  "Source": "Adform.BusinessAccount.Acceptance.Test",
+  "BasePath": "_content/Adform.BusinessAccount.Acceptance.Test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\b.kanjur\\source\\Adform\\PodAuth\\business-account-api\\src\\Adform.BusinessAccount.Api\\Adform.BusinessAccount.Api.csproj",
+      "Version": 2,
+      "Source": "Adform.BusinessAccount.Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

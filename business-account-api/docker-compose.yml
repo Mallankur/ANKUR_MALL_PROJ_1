@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  adform.businessaccount.api:
+    image: ${DOCKER_REGISTRY-}adformbusinessaccountapi
+    build:
+      context: .
+      dockerfile: src/Adform.BusinessAccount.Api/Dockerfile
+
+# mongodb initialization is for development purpose only once will have db server, it should be removed. It runs only once when db is not there.
+  mongoDB:
+    image: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=businessaccount
+      - MONGO_INITDB_ROOT_PASSWORD=mongopw
+      - MONGO_INITDB_ROOT_USERNAME=docker
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - ~/docker/volumes/mongodb:/data/db

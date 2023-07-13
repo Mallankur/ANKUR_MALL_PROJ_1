@@ -1,0 +1,13 @@
+ingress:
+  enabled: true
+  annotations: {}
+  path: /
+  hosts:
+    - business-account-api.app.d1.adform.zone
+  tls:
+    - hosts: [business-account-api.app.d1.adform.zone]
+
+featureTTL: "48h"
+
+environment:
+  ASPNETCORE_ENVIRONMENT: d1

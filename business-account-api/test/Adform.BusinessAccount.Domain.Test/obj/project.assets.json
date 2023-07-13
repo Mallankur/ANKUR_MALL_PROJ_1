@@ -1,0 +1,280 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Bogus >= 33.0.2",
+      "IdentityModel >= 5.1.0",
+      "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "Moq >= 4.16.1",
+      "coverlet.collector >= 3.1.2",
+      "coverlet.msbuild >= 3.1.2",
+      "xunit >= 2.4.1",
+      "xunit.runner.visualstudio >= 2.4.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ankur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\test\\Adform.BusinessAccount.Domain.Test\\Adform.BusinessAccount.Domain.Test.csproj",
+      "projectName": "Adform.BusinessAccount.Domain.Test",
+      "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\test\\Adform.BusinessAccount.Domain.Test\\Adform.BusinessAccount.Domain.Test.csproj",
+      "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\test\\Adform.BusinessAccount.Domain.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\NuGet.Config",
+        "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory.adform.com/artifactory/api/nuget/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj": {
+              "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[33.0.2, )"
+          },
+          "IdentityModel": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.9.4, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.16.1, )"
+          },
+          "coverlet.collector": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "coverlet.msbuild": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.Bloom.Client' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.Bloom.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.Bloom.Client"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Bogus' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Bogus'&semVerLevel=2.0.0'.",
+      "libraryId": "Bogus"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Bogus' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Bogus'&semVerLevel=2.0.0'.",
+      "libraryId": "Bogus"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'coverlet.msbuild' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='coverlet.msbuild'&semVerLevel=2.0.0'.",
+      "libraryId": "coverlet.msbuild"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'coverlet.msbuild' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='coverlet.msbuild'&semVerLevel=2.0.0'.",
+      "libraryId": "coverlet.msbuild"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NET.Test.Sdk' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.NET.Test.Sdk'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Moq' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Moq'&semVerLevel=2.0.0'.",
+      "libraryId": "Moq"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'IdentityModel' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='IdentityModel'&semVerLevel=2.0.0'.",
+      "libraryId": "IdentityModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'IdentityModel' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='IdentityModel'&semVerLevel=2.0.0'.",
+      "libraryId": "IdentityModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.AspNetCore.ErrorHandler.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.AspNetCore.ErrorHandler.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.AspNetCore.ErrorHandler.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.TestPlatform.TestHost' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.TestPlatform.TestHost'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeCoverage' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.CodeCoverage'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Castle.Core' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Castle.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Castle.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encodings.Web' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='System.Text.Encodings.Web'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='System.Text.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Diagnostics.TraceSource' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='System.Diagnostics.TraceSource'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Diagnostics.TraceSource"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Diagnostics.TraceSource' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='System.Diagnostics.TraceSource'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Diagnostics.TraceSource"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.TestPlatform.ObjectModel' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.TestPlatform.ObjectModel'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.TestPlatform.ObjectModel"
+    }
+  ]
+}

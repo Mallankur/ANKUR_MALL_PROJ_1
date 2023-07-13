@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Adform.AspNetCore.ErrorHandler.Contracts >= 5.0.0",
+      "Adform.Bloom.Client >= 0.2.8",
+      "FluentValidation >= 11.1.0",
+      "MediatR >= 10.0.1",
+      "Microsoft.Extensions.Logging.Abstractions >= 6.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ankur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj",
+      "projectName": "Adform.BusinessAccount.Domain",
+      "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\Adform.BusinessAccount.Domain.csproj",
+      "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\NuGet.Config",
+        "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory.adform.com/artifactory/api/nuget/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj": {
+              "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Contracts\\Adform.BusinessAccount.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Adform.AspNetCore.ErrorHandler.Contracts": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Adform.Bloom.Client": {
+            "target": "Package",
+            "version": "[0.2.8, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.1.0, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[10.0.1, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.AspNetCore.ErrorHandler.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.AspNetCore.ErrorHandler.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.AspNetCore.ErrorHandler.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.Bloom.Client' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.Bloom.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.Bloom.Client"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    }
+  ]
+}

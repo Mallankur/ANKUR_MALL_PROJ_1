@@ -1,0 +1,11 @@
+ingress:
+  enabled: true
+  annotations: {}
+  path: /
+  hosts: 
+    - business-account-api.app.pp.adform.zone
+  tls:
+    - hosts: [business-account-api.app.pp.adform.zone]
+
+environment:
+  ASPNETCORE_ENVIRONMENT: pp

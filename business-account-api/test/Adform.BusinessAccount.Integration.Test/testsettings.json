@@ -1,0 +1,5 @@
+{
+  "Mongo": {
+    "ConnectionString": "mongodb://docker:mongopw@localhost:27017/businessaccounttest?authSource=admin"
+  }
+}

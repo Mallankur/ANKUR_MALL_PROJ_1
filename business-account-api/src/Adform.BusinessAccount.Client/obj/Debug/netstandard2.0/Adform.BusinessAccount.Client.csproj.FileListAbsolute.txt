@@ -1,0 +1,13 @@
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\bin\Debug\netstandard2.0\Adform.BusinessAccount.Client.deps.json
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\bin\Debug\netstandard2.0\Adform.BusinessAccount.Client.dll
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\bin\Debug\netstandard2.0\Adform.BusinessAccount.Client.pdb
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\bin\Debug\netstandard2.0\Adform.BusinessAccount.Contracts.dll
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\bin\Debug\netstandard2.0\Adform.BusinessAccount.Contracts.pdb
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.csproj.AssemblyReference.cache
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.AssemblyInfoInputs.cache
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.AssemblyInfo.cs
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.csproj.CoreCompileInputs.cache
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.csproj.CopyComplete
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.dll
+C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\src\Adform.BusinessAccount.Client\obj\Debug\netstandard2.0\Adform.BusinessAccount.Client.pdb

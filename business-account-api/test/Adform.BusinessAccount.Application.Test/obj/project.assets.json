@@ -1,0 +1,252 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FluentValidation >= 11.2.2",
+      "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "coverlet.collector >= 3.1.2",
+      "coverlet.msbuild >= 3.1.2",
+      "xunit >= 2.4.2",
+      "xunit.runner.visualstudio >= 2.4.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ankur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\test\\Adform.BusinessAccount.Application.Test\\Adform.BusinessAccount.Application.Test.csproj",
+      "projectName": "Adform.BusinessAccount.Application.Test",
+      "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\test\\Adform.BusinessAccount.Application.Test\\Adform.BusinessAccount.Application.Test.csproj",
+      "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\test\\Adform.BusinessAccount.Application.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\NuGet.Config",
+        "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory.adform.com/artifactory/api/nuget/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Application\\Adform.BusinessAccount.Application.csproj": {
+              "projectPath": "C:\\Users\\ankur\\OneDrive\\Desktop\\SsoConfugiration\\business-account-api-1\\business-account-api\\src\\Adform.BusinessAccount.Application\\Adform.BusinessAccount.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.2.2, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.3.2, )"
+          },
+          "coverlet.collector": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "coverlet.msbuild": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.4.2, )"
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.Bloom.Client' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.Bloom.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.Bloom.Client"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mapster' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Mapster'&semVerLevel=2.0.0'.",
+      "libraryId": "Mapster"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mapster' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Mapster'&semVerLevel=2.0.0'.",
+      "libraryId": "Mapster"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.Logging.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Extensions.Microsoft.DependencyInjection' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Extensions.Microsoft.DependencyInjection'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Extensions.Microsoft.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Extensions.Microsoft.DependencyInjection' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Extensions.Microsoft.DependencyInjection'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Extensions.Microsoft.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'coverlet.msbuild' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='coverlet.msbuild'&semVerLevel=2.0.0'.",
+      "libraryId": "coverlet.msbuild"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'coverlet.msbuild' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='coverlet.msbuild'&semVerLevel=2.0.0'.",
+      "libraryId": "coverlet.msbuild"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation.DependencyInjectionExtensions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation.DependencyInjectionExtensions'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation.DependencyInjectionExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation.DependencyInjectionExtensions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation.DependencyInjectionExtensions'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation.DependencyInjectionExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'FluentValidation' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='FluentValidation'&semVerLevel=2.0.0'.",
+      "libraryId": "FluentValidation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Adform.AspNetCore.ErrorHandler.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Adform.AspNetCore.ErrorHandler.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "Adform.AspNetCore.ErrorHandler.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection.Abstractions' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Dependencyinjection.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mapster.Core' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Mapster.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Mapster.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mapster.Core' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='Mapster.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Mapster.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'MediatR.Contracts' from remote source 'https://artifactory.adform.com/artifactory/api/nuget/nuget/FindPackagesById()?id='MediatR.Contracts'&semVerLevel=2.0.0'.",
+      "libraryId": "MediatR.Contracts"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>Adform.BusinessAccount.Api</AssemblyName>
+		<RootNamespace>Adform.BusinessAccount.Api</RootNamespace>
+		<UserSecretsId>d61514c1-1a36-475b-8e0d-1f6b6f5a9147</UserSecretsId>
+		<SonarQubeExclude>true</SonarQubeExclude>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<LangVersion>9.0</LangVersion>
+		<WarningsAsErrors>CS8600;CS8601;CS8602;CS8603;CS8604;CS8618;CS8625</WarningsAsErrors>
+		<DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+		<DockerfileContext>..\..</DockerfileContext>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <LangVersion>10.0</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <LangVersion>10.0</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Adform.AspNetCore.OAuth" Version="2.0.0" />
+		<PackageReference Include="Adform.AspNetCore.Paging" Version="2.1.6" />
+		<PackageReference Include="Adform.Ciam.Mongo" Version="0.0.4" />
+		<PackageReference Include="Adform.Ciam.Authentication" Version="0.0.4" />
+		<PackageReference Include="Adform.Ciam.Authorization" Version="0.0.4" />
+		<PackageReference Include="Adform.Ciam.TokenProvider" Version="0.0.4" />
+		<PackageReference Include="FluentValidation.AspNetCore" Version="11.1.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.8" />
+		<PackageReference Include="Adform.Ciam.ExceptionHandling" Version="0.0.4" />
+		<PackageReference Include="Adform.Ciam.Logging" Version="0.0.4" />
+		<PackageReference Include="Adform.Ciam.Monitoring" Version="0.0.4" />
+		<PackageReference Include="Adform.Ciam.Swagger" Version="0.0.4" />
+		<PackageReference Include="Adform.Ciam.Health" Version="0.0.4" />
+		<PackageReference Include="CorrelationId" Version="3.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="6.0.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.7" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.16.1" />
+		<PackageReference Include="Pluralize.NET.Core" Version="1.0.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+  </ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Adform.BusinessAccount.Application\Adform.BusinessAccount.Application.csproj" />
+	  <ProjectReference Include="..\Adform.BusinessAccount.Infrastructure\Adform.BusinessAccount.Infrastructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Adform.BusinessAccount.Acceptance.Test" />
+		<InternalsVisibleTo Include="Adform.BusinessAccount.Integration.Test" />
+	</ItemGroup>
+
+</Project>

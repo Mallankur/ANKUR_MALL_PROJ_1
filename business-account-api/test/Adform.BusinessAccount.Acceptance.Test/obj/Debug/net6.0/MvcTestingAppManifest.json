@@ -1,0 +1,6 @@
+{
+  "Adform.BusinessAccount.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\b.kanjur\\source\\Adform\\PodAuth\\business-account-api\\src\\Adform.BusinessAccount.Api",
+  "Adform.BusinessAccount.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\b.kanjur\\source\\Adform\\PodAuth\\business-account-api\\src\\Adform.BusinessAccount.Application",
+  "Adform.BusinessAccount.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\b.kanjur\\source\\Adform\\PodAuth\\business-account-api\\src\\Adform.BusinessAccount.Domain",
+  "Adform.BusinessAccount.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\b.kanjur\\source\\Adform\\PodAuth\\business-account-api\\src\\Adform.BusinessAccount.Infrastructure"
+}

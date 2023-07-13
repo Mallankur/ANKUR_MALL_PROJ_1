@@ -1,0 +1,60 @@
+name: dockercompose36609345479432733
+services:
+  adform.businessaccount.api:
+    build:
+      context: C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api
+      dockerfile: src/Adform.BusinessAccount.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: adformbusinessaccountapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\b.kanjur\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\b.kanjur\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  mongoDB:
+    environment:
+      MONGO_INITDB_DATABASE: businessaccount
+      MONGO_INITDB_ROOT_PASSWORD: mongopw
+      MONGO_INITDB_ROOT_USERNAME: docker
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\b.kanjur\source\Adform\PodAuth\business-account-api\init-mongo.js
+      target: /docker-entrypoint-initdb.d/init-mongo.js
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\b.kanjur\docker\volumes\mongodb
+      target: /data/db
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose36609345479432733_default
